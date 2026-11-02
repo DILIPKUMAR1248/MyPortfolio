@@ -1,0 +1,4 @@
+[build]
+  # Always do a clean install from the lockfile (including dev deps), then build with Vite.
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
